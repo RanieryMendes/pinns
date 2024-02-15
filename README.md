@@ -19,5 +19,9 @@ The remaining of this document is structured as follows:
 
 ##### Navier-Strokes
 
+Some people love it, other people hate it. However, it is undeniable that solving Navier-Strokes and fully understanding it remains a million dollar question (or should I say equation? 😄).
+
+<img src="./navier_fun.png" alt="Image from a youtuber's love for navier strokes equation." />
+
 
 ##### Schrodinger
