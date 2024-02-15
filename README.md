@@ -33,7 +33,7 @@ v_t + \lambda_{1}(uv_x + vv_y) = -p_y + \lambda_{2}(v_{xx} + v_{yy}),
 
 $$
 
-where $ u(t,x,y)$ denotes the x-component of the velocity field, $v(t,x,y)$ the y-component, whereas the pressure is described by $ p(t,x,y)$.  I highlight that in this setup, we have no knowledge about the $ \lambda$ values ($ \lambda_1 , \lambda_2$).
+where $u(t,x,y)$ denotes the x-component of the velocity field, $v(t,x,y)$ the y-component, whereas the pressure is described by $ p(t,x,y)$.  I highlight that in this setup, we have no knowledge about the $ \lambda$ values ($ \lambda_1 , \lambda_2$).
 
 For the purposes of the paper and this assignment, the experiments consider the pseudo problem of a "incompressible flow past a circular cylinder" (Raissi et al., 693) using the Navier Stokes 2D formulation shown above.
 
