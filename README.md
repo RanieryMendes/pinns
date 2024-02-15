@@ -28,12 +28,13 @@ In Raissi et al., they experiment PINNs on the 2D version of Navier Stokes equat
 
 $$
 u_t + \lambda_{1}(uu_x + vu_y) = -p_x + \lambda_{2}(u_{xx} + u_{yy}), 
-\newline
-v_t + \lambda_{1}(uv_x + vv_y) = -p_y + \lambda_{2}(v_{xx} + v_{yy})
 
 $$
 
+$$
+v_t + \lambda_{1}(uv_x + vv_y) = -p_y + \lambda_{2}(v_{xx} + v_{yy})
 
+$$
 
 where $u(t,x,y)$ denotes the x-component of the velocity field, $v(t,x,y)$ the y-component, whereas the pressure is described by $p(t,x,y)$.  I highlight that in this setup, we have no knowledge about the $\lambda$ values ($\lambda_1 , \lambda_2$).
 
