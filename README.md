@@ -27,12 +27,27 @@ Some people love it, other people hate it. However, it is undeniable that solvin
 In Raissi et al., they experiment PINNs on the 2D version of Navier Stokes equation. The equation is described explicitly  as follows:
 
 $$
-u_t + \lambda_{1}(uu_x + vu_y) = -p_x + \lambda_{2}(u_{xx} + u_{yy}) (1), 
+u_t +\lambda_{1}(uu_x + vu_y) = -p_x +\lambda_{2}(u_{xx} + u_{yy}) (1),
+
+$$
+
+$v_t + \lambda_{1}(uv_x + vv_y) = -p_y + \lambda_{2}(v_{xx} + v_{yy}) (2)$
+
+$$
+
+
 
 $$
 
 $$
-v_t + \lambda_{1}(uv_x + vv_y) = -p_y + \lambda_{2}(v_{xx} + v_{yy}) (2)
+
+
+
+$$
+
+$$
+
+
 
 $$
 
