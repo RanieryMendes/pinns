@@ -8,7 +8,7 @@ PINNs original paper [2019] can be accessed <a href="https://pdf.sciencedirectas
 
 The remaining of this document is structured as follows:
 
-1. Equations: Navier-Strokes and Schrodinger
+1. Equations: Navier-Stokes and Schrodinger
 2. PINNs : How they work and which gap they fill in the literature.
 3. PINNs : Limitations.
 4. Reproducing paper experiments: Pinns-torch
@@ -17,11 +17,24 @@ The remaining of this document is structured as follows:
 
 ## 1. Equations
 
-##### Navier-Strokes
+##### Navier-Stokes
 
-Some people love it, other people hate it. However, it is undeniable that solving Navier-Strokes and fully understanding it remains a million dollar question (or should I say equation? 😄).
+Some people love it, other people hate it. However, it is undeniable that solving Navier-Stokes and fully understanding it remains a million dollar question (or should I say equation? 😄).
 
-<p align="center"> <img src="./navier_fun.png" height="400px" width="400px" alt="Image from a youtuber's love for navier strokes equation."/> </p>
+<p align="center"> <img src="./navier_fun.png" height="400px" width="400px" alt="Image from a youtuber's love for navier stokes equation."/> </p>
 
+
+In Raissi et al., they experiment PINNs on the 2D version of Navier Stokes equation. The equation is described explicitly  as follows:
+
+$$
+u_t + \lambda_{1}(uu_x + vu_y) = -p_x + \lambda_{2}(u_{xx} + u_{yy}), 
+\newline
+v_t + \lambda_{1}(uv_x + vv_y) = -p_y + \lambda_{2}(v_{xx} + v_{yy}),
+
+$$
+
+where $ u(t,x,y)$ denotes the x-component of the velocity field, $v(t,x,y)$ the y-component, whereas the pressure is described by $ p(t,x,y)$.  I highlight that in this setup, we have no knowledge about the $ \lambda$ values ($ \lambda_1 , \lambda_2$).
+
+For the purposes of the paper and this assignment, the experiments consider the pseudo problem of a "incompressible flow past a circular cylinder" (Raissi et al., 693) using the Navier Stokes 2D formulation shown above.
 
 ##### Schrodinger
