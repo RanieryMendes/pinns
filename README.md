@@ -1,4 +1,4 @@
-# pinns
+# Physics-informed neural networks (PINNs)
 
 Task:
 
@@ -8,7 +8,16 @@ PINNs original paper [2019] can be accessed <a href="https://pdf.sciencedirectas
 
 The remaining of this document is structured as follows:
 
-1. Equations
+1. Equations: Navier-Strokes and Schrodinger
 2. PINNs : How they work and which gap they fill in the literature.
 3. PINNs : Limitations.
-4. Reproducing paper experiments
+4. Reproducing paper experiments: Pinns-torch
+5. Discussion and Conclusion
+
+
+## 1. Equations
+
+##### Navier-Strokes
+
+
+##### Schrodinger
